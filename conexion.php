@@ -18,7 +18,7 @@ if (!mysqli_select_db($conexion, $nombre_base_datos)) {
     die("Error al seleccionar la base de datos: " . mysqli_error($conexion));
 }
 
-// Si llegamos aquí, la conexión y la selección de base de datos fueron exitosas
+// aSi llegamos aquí, la conexión y la selección de base de datos fueron exitosas
 //echo "Conexión exitosa a la base de datos '$nombre_base_datos' en el servidor '$servidor'.";
 
 // Cerrar la conexión cuando ya no sea necesaria
