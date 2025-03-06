@@ -3,7 +3,7 @@
 $servidor = "localhost:3307"; // Nombre del servidor (por defecto localhost)
 $usuario = "root";       // Usuario (por defecto root en XAMPP)
 $contrasena = "";        // Contraseña (por defecto vacío en XAMPP)
-$nombre_base_datos = "estudiantes"; // Nombre de la base de datos
+$nombre_base_datos = "eldenring_db"; // Nombre de la base de datos
 
 // Establecer la conexión
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $nombre_base_datos);
